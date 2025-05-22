@@ -1,9 +1,52 @@
 .page-header{
     background-image: url("../images/image-header.png");
-    min-height: 500px;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    &__logo{
+        max-width: 250px;
+        margin: 20px;
+    }
+}
+
+.page-header__search-bar {
+
+    display: flex;
+    border: 2px solid #ffffff;
+    margin: 20px;
+
+    input {
+      padding: 15px;
+      border: none;
+      min-width: 280px;
+      max-width: 350px;
+      text-align: center;
+
+    }
+
+    button{
+        background-color: $purple-main-color;
+        color: #ffffff;
+        padding: 15px;
+        border: none;
+    }
+
+    :hover{
+        background-color: $purple-hover-color;
+    }
+
+}
+
+.scroll-down{
+    margin-top: 80px;
+
+    &__btn{
+        color: #ffffff;
+        text-decoration: none;
+    }
+
 }
