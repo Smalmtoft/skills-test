@@ -184,7 +184,7 @@ nav {
 }
 
 .section__one__wrapper {
-  width: 80%;
+  width: 85%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -205,7 +205,7 @@ nav {
 
 .section__one__text {
   max-width: 400px;
-  margin: 80px;
+  margin-bottom: 40px;
 }
 .section__one__text__p {
   margin-bottom: 30px;
@@ -217,7 +217,6 @@ nav {
   -o-object-fit: cover;
      object-fit: cover;
   margin: 10px;
-  margin-left: -50px;
 }
 
 .section__one__image__2 {
@@ -226,10 +225,35 @@ nav {
   -o-object-fit: cover;
      object-fit: cover;
   margin: 10px;
-  margin-left: 0px;
+  position: relative;
+  left: 50px;
 }
 
 /* SECTION TWO */
+.section__two {
+  background-color: #333333;
+}
+
 /* SECTION THREE */
-/* SECTION FOUR */
+.section__three {
+  background-image: url("../images/image-house.png");
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 500px;
+}
+
+/* SECTION THREE */
+.section__four {
+  background-image: url("../images/image-sunrise.png");
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 500px;
+}
+
 /* SECTION FIVE */
+.section__five {
+  background-image: url("../images/image-traveler1.png");
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 500px;
+}

@@ -11,7 +11,7 @@
 }
 
 .section__one__wrapper{
-    width: 80%;
+    width: 85%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -22,6 +22,7 @@
 
 .section__one__text{
         max-width: 400px;
+        margin-bottom: 40px;
         
 
         &__p{
@@ -30,18 +31,19 @@
     }
 
 
-.section__one__image__1{
-    max-width: 350px;
-    height: auto;
-    object-fit: cover;
-    margin: 10px;
-    margin-left: -50px;  
-}
-
-.section__one__image__2{
-    max-width: 350px;
-    height: auto;
-    object-fit: cover;
-    margin: 10px;
-    margin-left: 0px;  
-}
+    .section__one__image__1{
+        max-width: 350px;
+        height: auto;
+        object-fit: cover;
+        margin: 10px;
+        
+    }
+    
+    .section__one__image__2{
+        max-width: 350px;
+        height: auto;
+        object-fit: cover;
+        margin: 10px; 
+        position: relative;
+        left: 50px;
+    }
