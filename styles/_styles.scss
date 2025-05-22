@@ -1,2 +1,61 @@
+
+/* COLORS */ 
 $purple-main-color: #5474FD;
 $purple-hover-color: #0023be;
+
+/* FONTS */
+h1{
+    font-family: "Aleo", serif;
+    font-size: 40px;
+}
+
+h2{
+    font-family: "Aleo", serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+h3{
+    font-family: "Aleo", serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    
+}
+
+p{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 1.7;
+}
+
+a{
+    font-family: "Aleo", serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+/* BUTTONS */
+
+@mixin button-style {
+    background-color: $purple-main-color;
+    color: #ffffff;
+    font-family: "Aleo", serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border: none;
+    padding: 12px 20px;
+    margin: 20px 0px;
+    transition: background-color 0.2s ease;
+  
+    &:hover {
+      background-color: $purple-hover-color;
+    }
+  }
