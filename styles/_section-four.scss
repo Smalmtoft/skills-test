@@ -5,8 +5,9 @@
 /* SECTION THREE */
 .section__four{
     background-image: url("../images/image-sunrise.png");
-    object-fit: cover;
-    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;

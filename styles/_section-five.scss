@@ -1,10 +1,65 @@
 /* SECTION FIVE */
-.section__five{
+.section__five {
     background-image: url("../images/image-traveler1.png");
-    object-fit: cover;
-    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-}
+    padding: 40px 20px;
+  }
+  
+  .section__five__wrapper {
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .section__five__title {
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  
+  .section__five__card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .section__five__image {
+    background-image: url("../images/image-traveler2.png");
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    min-height: 200px;
+  }
+  
+  .section__five__text {
+    flex: 1.5;
+    background-color: #333333;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .section__five__name {
+    text-align: left;
+  }
+  
+  
+  .quote-symbol {
+    color: $purple-main-color;
+    font-size: 30px;
+    margin-right: 5px;
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 800px) {
+    .section__five__card {
+      flex-direction: column;
+    }
+  
+  }
+  

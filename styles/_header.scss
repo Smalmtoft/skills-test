@@ -1,6 +1,7 @@
 .page-header{
     background-image: url("../images/image-header.png");
-    object-fit: cover;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     width: 100%;
     display: flex;

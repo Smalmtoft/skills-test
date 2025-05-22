@@ -6,7 +6,8 @@
 
 .section__one{
     background-image: url("../images/image-city.png");
-    object-fit: cover;
+    background-size: cover;
+    background-position: center;
     min-height: 500px;
 }
 
