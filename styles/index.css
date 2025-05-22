@@ -36,6 +36,7 @@ h4 {
   font-weight: 300;
   color: #ffffff;
   text-align: left;
+  margin: 10px 0px;
 }
 
 p {
@@ -90,13 +91,13 @@ a {
           align-items: flex-start;
   border: 2px solid #ffffff;
   margin: 0px;
-  width: 40%;
+  width: 50%;
 }
 .page-header__search-bar input {
   padding: 5px;
   border: none;
   width: 75%;
-  height: 44px;
+  height: 48.5px;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
@@ -123,12 +124,10 @@ a {
   background-color: #435dd4;
 }
 
-/* RESPONSIVE */
-@media (max-width: 800px) {
-  .page-header__search-bar {
-    width: 70%;
-  }
+.icon {
+  padding-left: 5px;
 }
+
 .scroll-down {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -145,6 +144,7 @@ a {
 .scroll-down__btn {
   color: #ffffff;
   text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
 }
 .scroll-down__btn:hover {
   -webkit-transition-duration: 0.5s;
@@ -152,6 +152,18 @@ a {
   scale: 1.05;
 }
 
+/* RESPONSIVE */
+@media (max-width: 850px) {
+  .page-header__search-bar {
+    width: 85%;
+  }
+  input {
+    width: 60%;
+  }
+  button {
+    width: 40%;
+  }
+}
 .navigation {
   position: sticky;
   top: 0;
@@ -306,6 +318,10 @@ a {
      object-fit: contain;
 }
 
+.purple {
+  fill: #5474FD;
+}
+
 .button {
   background-color: #5474FD;
   color: #ffffff;
@@ -379,6 +395,13 @@ a {
   left: 50px;
 }
 
+/* RESPONSIVE */
+@media (max-width: 800px) {
+  .section__one__image__1, .section__one__image__2 {
+    position: relative;
+    left: 0;
+  }
+}
 /* SECTION TWO */
 .section__two {
   background-color: #333333;
@@ -418,7 +441,7 @@ a {
 }
 
 .section__two__item {
-  margin: 50px;
+  margin: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -431,6 +454,31 @@ a {
           align-items: center;
 }
 
+.search {
+  fill: #5474FD;
+}
+
+.select {
+  fill: #FF6363;
+}
+
+.book {
+  fill: #00A2FF;
+}
+
+/* RESPONSIVE */
+@media (max-width: 800px) {
+  .section__two__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 20px;
+  }
+  .section__two__item {
+    margin: 30px;
+  }
+}
 .button {
   background-color: #5474FD;
   color: #ffffff;
@@ -471,6 +519,7 @@ a {
   background-color: rgba(51, 51, 51, 0.9019607843);
   max-width: 500px;
   padding: 30px;
+  padding-bottom: 50px;
   position: relative;
   left: -30%;
 }
@@ -523,6 +572,7 @@ a {
   background-color: rgba(51, 51, 51, 0.9019607843);
   max-width: 500px;
   padding: 30px;
+  padding-bottom: 50px;
   position: relative;
   left: 30%;
 }

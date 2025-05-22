@@ -18,9 +18,34 @@
 }
 
 .section__two__item{
-    margin: 50px;
+    margin: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
 
+}
+
+.search{
+    fill: $purple-main-color;
+}
+
+.select{
+    fill: #FF6363;
+}
+
+.book{
+    fill: #00A2FF;
+}
+
+/* RESPONSIVE */
+@media (max-width: 800px) {
+    .section__two__wrapper {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .section__two__item{
+        margin: 30px;
+    }
+      
 }

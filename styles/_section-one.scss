@@ -48,3 +48,13 @@
         position: relative;
         left: 50px;
     }
+
+
+/* RESPONSIVE */
+  @media (max-width: 800px) {
+    .section__one__image__1, .section__one__image__2 {
+        position: relative;
+        left: 0;    
+    }
+  
+  }
