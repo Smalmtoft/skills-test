@@ -1,5 +1,26 @@
 /* SECTION TWO */
 .section__two{
     background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+&__wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+}
+
+}
+
+.section__two__item{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
