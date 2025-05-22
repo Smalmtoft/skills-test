@@ -1,6 +1,22 @@
+.button{
+    @include button-style;
+}
+
 /* SECTION THREE */
 .section__four{
     background-image: url("../images/image-sunrise.png");
     object-fit: cover;
     min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section__four__wrapper{
+}
+
+.section__four__card{
+    background-color: $grey-opacity;
+    max-width: 500px;
+    padding: 30px;
 }

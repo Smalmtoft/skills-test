@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
 /* COLORS */
 /* FONTS */
 h1 {
@@ -19,12 +24,20 @@ h3 {
   color: #ffffff;
 }
 
+h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
 p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: #ffffff;
   line-height: 1.7;
+  margin-bottom: 30px;
 }
 
 a {
@@ -281,12 +294,65 @@ nav {
           align-items: center;
 }
 
+.button {
+  background-color: #5474FD;
+  color: #ffffff;
+  font-family: "Aleo", serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border: none;
+  padding: 12px 20px;
+  margin: 20px 0px;
+  -webkit-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
+}
+.button:hover {
+  background-color: #0023be;
+}
+
 /* SECTION THREE */
 .section__three {
   background-image: url("../images/image-house.png");
   -o-object-fit: cover;
      object-fit: cover;
   min-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section__three__card {
+  background-color: rgba(51, 51, 51, 0.9019607843);
+  max-width: 500px;
+  padding: 30px;
+}
+
+.button {
+  background-color: #5474FD;
+  color: #ffffff;
+  font-family: "Aleo", serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border: none;
+  padding: 12px 20px;
+  margin: 20px 0px;
+  -webkit-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
+}
+.button:hover {
+  background-color: #0023be;
 }
 
 /* SECTION THREE */
@@ -295,6 +361,21 @@ nav {
   -o-object-fit: cover;
      object-fit: cover;
   min-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section__four__card {
+  background-color: rgba(51, 51, 51, 0.9019607843);
+  max-width: 500px;
+  padding: 30px;
 }
 
 /* SECTION FIVE */
@@ -303,4 +384,13 @@ nav {
   -o-object-fit: cover;
      object-fit: cover;
   min-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
