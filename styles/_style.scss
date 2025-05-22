@@ -2,10 +2,13 @@ body {
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .icon{
     fill: #ffffff;
 }
-
 
 /* COLORS */ 
 $purple-main-color: #5474FD;
