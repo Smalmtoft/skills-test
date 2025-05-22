@@ -8,12 +8,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 50px;
   }
 
 .nav__logo{
     max-width: 200px;
     height: auto;
+    padding-left: 50px;
     
     img{
         width: 100%;
@@ -35,6 +35,11 @@
     a{
         color: #ffffff;
         text-decoration: none;
+    }
+
+    &:hover{
+        transition-duration: 0.5s;
+        scale: 1.05;
     }
 }
 
