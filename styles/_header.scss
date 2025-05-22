@@ -41,6 +41,15 @@
 
 }
 
+  /* RESPONSIVE */
+  @media (max-width: 800px) {
+    .page-header__search-bar {
+        width: 70%
+    
+    }
+  
+  }
+
 .scroll-down{
     display: flex;
     flex-direction: column;
